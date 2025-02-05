@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+        }
+        .header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: red;
+        }
+        .content {
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .banner {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .subtext {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .btn {
+            background-color: red;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">NETFLIX</div>
+        <button class="btn">Sign In</button>
+    </div>
+    <div class="content">
+        <div class="banner">Unlimited movies, TV shows, and more.</div>
+        <div class="subtext">Watch anywhere. Cancel anytime.</div>
+        <button class="btn">Get Started</button>
+    </div>
+</body>
+</html>
